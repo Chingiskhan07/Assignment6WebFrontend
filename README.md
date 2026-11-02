@@ -51,3 +51,5 @@ All bars start at zero. Animate My Skills animates HTML to 85%, CSS to 70% and J
 
 ## Work summary
 The HTML divides the portfolio into sections. The CSS defines the themes, initially closed panels and empty skill bars. The JavaScript groups the click and input handlers by task inside one document-ready block. Each screenshot shows the corresponding section after using its controls.
+
+https://chingiskhan07.github.io/Assignment6WebFrontend/
