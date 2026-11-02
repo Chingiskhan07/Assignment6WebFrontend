@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <main>
+    <header id="profile">
+      <p class="label">Assignment 6</p>
+      <h1>Welcome to My Portfolio</h1>
+      <p id="headline">Frontend student</p>
+      <p>Hi, I'm [Your name]. I'm learning how to build websites.</p>
+
+      <button id="light">Light theme</button>
+      <button id="dark">Dark theme</button>
+      <small id="ready"></small>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I started with HTML and CSS. Now I'm learning JavaScript.</p>
+      <ul>
+        <li>I like sketching a page on paper before I code it.</li>
+        <li>I want to build a website for a student club.</li>
+      </ul>
+
+      <p id="status">Currently learning jQuery!</p>
+      <button id="hide">Hide</button>
+      <button id="show">Show</button>
+      <button id="toggle">Toggle</button>
+    </section>
+
+    <section id="gallery">
+      <h2>My Gallery</h2>
+      <div class="pictures">
+        <img src="images/trail.svg" alt="A mountain trail">
+        <img src="images/desk.svg" alt="A laptop and notebook on a desk">
+      </div>
+
+      <button id="fade-in">Fade in</button>
+      <button id="fade-out">Fade out</button>
+      <button id="fade-toggle">Fade toggle</button>
+    </section>
+
+    <section id="favorites">
+      <h2>My Favorites</h2>
+      <button id="open-all">Open all</button>
+      <button id="close-all">Close all</button>
+
+      <h3>
+        <button class="topic">Favorite music</button>
+      </h3>
+      <p class="panel">I listen to jazz when I study.</p>
+
+      <h3>
+        <button class="topic">Favorite movie</button>
+      </h3>
+      <p class="panel">My favorite movie is WALL-E. I like how much the robots say without words.</p>
+
+      <h3>
+        <button class="topic">Favorite subject</button>
+      </h3>
+      <p class="panel">I like web development because I can try an idea and see it in the browser.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul id="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+      </ul>
+
+      <label for="skill">New skill</label>
+      <input id="skill" type="text" placeholder="e.g. Git">
+
+      <button id="add">Add Skill</button>
+      <button id="prepend">Prepend Skill</button>
+      <button id="remove">Remove Skill</button>
+      <small>Remove Skill deletes the last skill in the list.</small>
+    </section>
+
+    <section id="social">
+      <h2>Social Links</h2>
+      <a id="social-link" href="https://github.com/">GitHub</a>
+      <button id="change-link">Switch link</button>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Preview</h2>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" type="text">
+
+        <label for="email">Email</label>
+        <input id="email" type="email">
+      </form>
+
+      <p>Name: <span id="preview-name"></span></p>
+      <p>Email: <span id="preview-email"></span></p>
+    </section>
+
+    <section id="levels">
+      <h2>My Skill Levels</h2>
+
+      <p>HTML: 85%</p>
+      <div class="track">
+        <div id="html-bar" class="bar"></div>
+      </div>
+
+      <p>CSS: 70%</p>
+      <div class="track">
+        <div id="css-bar" class="bar"></div>
+      </div>
+
+      <p>JavaScript: 50%</p>
+      <div class="track">
+        <div id="js-bar" class="bar"></div>
+      </div>
+
+      <button id="animate">Animate My Skills</button>
+    </section>
+  </main>
+</body>
+</html>
